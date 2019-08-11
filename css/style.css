@@ -3,6 +3,10 @@ html {
 	font-family: sans-serif;
 }
 
+body {
+	background: #E4E4E4;
+}
+
 a {
 	text-decoration: none;
 	color: #D75724;
@@ -10,17 +14,40 @@ a {
 
 h1 {
 	text-align: center;
+	background: #fff;
 }
 
-aside {
-	display: inline-block;
-	float: left;
+hr {
+	box-shadow: 0 3px 1px 1px #585858;
 }
 
-h2>a {
+nav {
+	display: block;
+	position: fixed;
+	width: 300px;
+	background: #fff;
+	border-radius: 5px;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+/* >a {
 	box-shadow: 0 0 0 3px #9C4008;
 	text-shadow: black 5px 5px 5px 3px;
 	border-radius: 6px;
 	padding: 2px 5px;
-	display: inline;
+} */
+
+li {
+	list-style: none;
+}
+
+ol>li>ol>li {
+	font-size: 0.7em;
+}
+
+main {
+	background: #fff;
+	border-radius: 5px;
+	width: 500px;
 }
