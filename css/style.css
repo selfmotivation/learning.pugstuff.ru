@@ -1,0 +1,26 @@
+html {
+	font-size: 1.2em;
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #D75724;
+}
+
+h1 {
+	text-align: center;
+}
+
+aside {
+	display: inline-block;
+	float: left;
+}
+
+h2>a {
+	box-shadow: 0 0 0 3px #9C4008;
+	text-shadow: black 5px 5px 5px 3px;
+	border-radius: 6px;
+	padding: 2px 5px;
+	display: inline;
+}
